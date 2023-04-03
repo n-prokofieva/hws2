@@ -1,13 +1,63 @@
 .sendForm {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .textarea {
+    width: 100%;
+    height: 40px;
+    min-height: 40px;
+    max-height: 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.6);
+    background: #F5F7FB;
+    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
+    border-radius: 20px;
+    border: 0;
+    border-top: 2px solid #F5F7FB;
+    border-bottom: 2px solid #F5F7FB;
+    padding: 10px 24px;
+    resize: none;
+    outline: none;
+    overflow: hidden;
 
+}
+.textarea::placeholder,
+.textarea::-moz-placeholder,
+.textarea::-ms-input-placeholder,
+.textarea::-webkit-input-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.6);
+    opacity: 0.9;
 }
 
 .button {
-
+    width: 120px;
+    height: 40px;
+    flex: 0 0 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0066CC;
+    border-radius: 20px;
+    border: none;
+    margin-left: 44px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .button:hover {
