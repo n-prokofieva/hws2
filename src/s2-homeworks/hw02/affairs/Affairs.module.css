@@ -49,7 +49,9 @@
 
 .affairs {
     display: flex;
+    align-content: flex-start;
     gap: 17px;
     flex-wrap: wrap;
     max-width: 450px;
+    min-height: 154px;
 }
