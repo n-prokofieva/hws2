@@ -8,8 +8,7 @@ import HW6 from "../../hw06/HW6";
 function Junior() {
     return (
         <div id={'hw5-page-junior'}>
-            Body of Junior
-            {/*<HW6 />*/}
+            <HW6 />
             {/*<HW7 />*/}
             {/*<HW8 />*/}
             {/*<HW9 />*/}

@@ -1,8 +1,9 @@
 .button {
-    width: 132px;
+    min-width: 132px;
+    width: auto;
     height: 30px;
     background: #0066CC;
-    padding: 5px 24px;
+    padding: 5px 10px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
